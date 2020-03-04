@@ -120,7 +120,6 @@ class CRUDVC: UIViewController {
                 }
                 formView.text(width: Int(viewForm.frame.width), metaData: item) { (textField) in
                     textField.delegate = self
-                    textField.tag = index
                     textField.accessibilityIdentifier = item.field
                     viewForm.addSubview(textField)
                 }
@@ -129,7 +128,6 @@ class CRUDVC: UIViewController {
                     viewForm.addSubview(label)
                 }
                 formView.textArea( width: Int(viewForm.frame.width), metaData: item) { (textArea) in
-                    textArea.tag = index
                     textArea.accessibilityIdentifier = item.field
                     viewForm.addSubview(textArea)
                 }
@@ -139,7 +137,6 @@ class CRUDVC: UIViewController {
                 }
                 formView.text(width: Int(viewForm.frame.width), metaData: item) { (textField) in
                     textField.delegate = self
-                    textField.tag = index
                     textField.accessibilityIdentifier = item.field
                     textField.inputView = pickerView
                     viewForm.addSubview(textField)
@@ -151,7 +148,6 @@ class CRUDVC: UIViewController {
                     viewForm.addSubview(label)
                 }
                 formView.checkbox(metaData: item) { (button, name) in
-                    button.tag = index
                     button.accessibilityIdentifier = item.field
                     let tap = MyTapGesture(target: self, action: #selector(self.buttonAction))
                     button.addGestureRecognizer(tap)
@@ -164,7 +160,6 @@ class CRUDVC: UIViewController {
                 }
                 formView.text(width: Int(viewForm.frame.width), metaData: item) { (textField) in
                     textField.delegate = self
-                    textField.tag = index
                     textField.accessibilityIdentifier = item.field
                     textField.inputView = datePicker
                     viewForm.addSubview(textField)
