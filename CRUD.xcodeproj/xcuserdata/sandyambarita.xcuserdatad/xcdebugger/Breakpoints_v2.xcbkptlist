@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AA3A12AF-1169-4B0E-8734-ED22353E192D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F16B224-CEF3-4B89-8272-FFAA15F4545E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CRUD/Module/ViewModel/CRUDViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fetchListResponse(params:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7576F267-4275-41F0-B7C9-3A6CDE15A5FD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CRUD/Module/View/ListVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "deleteOnClicked(cell:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7576F267-4275-41F0-B7C9-3A6CDE15A5FD - 61819e9902c78861"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CRUD.ListVC.deleteOnClicked(cell: CRUD.ListCell) -&gt; ()"
+                  moduleName = "CRUD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sandyambarita/Projects/CRUD/CRUD/Module/View/ListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2226">
+               </Location>
+               <Location
+                  uuid = "7576F267-4275-41F0-B7C9-3A6CDE15A5FD - f011dd4197ca4f7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;CRUD.Response&gt;) -&gt; () in CRUD.ListVC.deleteOnClicked(cell: CRUD.ListCell) -&gt; ()"
+                  moduleName = "CRUD"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sandyambarita/Projects/CRUD/CRUD/Module/View/ListVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "150">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
